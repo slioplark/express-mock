@@ -1,9 +1,5 @@
 var router = require('express').Router();
 
-router.use('/', (req, res, next) => {
-  res.json({
-    title: 'Express'
-  });
-});
+router.use('/test', require('./test'));
 
 module.exports = router;
