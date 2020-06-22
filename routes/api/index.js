@@ -14,7 +14,9 @@ router.get('/mock', (req, res, next) => {
     "number|1-100": 100,
     "string|1-10": "★",
     'array|1-6': [{
-      'id|+1': 1
+      'id|+1': 1,
+      "guid": "@guid",
+      "datetime": "@datetime"
     }],
     "object|1-6": {
       "city1": "臺北市",
